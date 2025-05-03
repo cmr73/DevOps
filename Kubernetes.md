@@ -178,8 +178,4 @@ cat /var/jenkins_home/secrets/initialAdminPassword
 Copy this password and paste it into the Jenkins setup page.
 
 ---
-
-```
-
-Let me know if you’d like this saved as a downloadable `.md` file or converted to PDF.
-```
+## ✅ Done
