@@ -27,14 +27,19 @@
    sudo apt-get install jenkins
    sudo systemctl start jenkins
    ```
+3. **To get the PassWord**
 
-3. **Access Jenkins via Browser:**
+   ```
+   sudo systemctl status jenkins
+   ```
+
+4. **Access Jenkins via Browser:**
 
    ```
    http://<devm-public-ip>:8080
    ```
 
-4. **Install Suggested Plugins**
+5. **Install Suggested Plugins**
 
 ---
 
