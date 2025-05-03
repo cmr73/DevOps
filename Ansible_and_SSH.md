@@ -58,6 +58,7 @@ cat ~/.ssh/id_rsa.pub
 #### On both server1 and server2:
 
 ```bash
+apt update
 mkdir -p ~/.ssh
 nano ~/.ssh/authorized_keys
 # Paste the public key here (do not remove existing text)
