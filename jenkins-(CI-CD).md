@@ -160,8 +160,17 @@ sudo apt install -y tomcat9 tomcat9-admin
 ```
 
 ### 🔐 Step 2: Configure `tomcat-users.xml`
+Goto /etc/tomcat9
+
+```bash
+cd /etc/tomcat9
+```
 
 Edit the file and add the following before the last line:
+To edit
+```bash
+sudo nano tomcat-users.xml
+```
 
 ```xml
 <role rolename="manager-gui"/>
