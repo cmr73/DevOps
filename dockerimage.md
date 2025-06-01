@@ -21,14 +21,13 @@ apt update -y
 ### Install required packages:
 
 ```bash
-apt install nginx -y         # Nginx
+apt install nginx -y
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-\. "$HOME/.nvm/nvm.sh"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 nvm install 22
 npm -v
-apt install nodejs -y        # Node.js
-apt install npm -y           # NPM
-npm install -g pm2           # PM2 process manager
+npm install -g pm2
 ```
 
 ---
