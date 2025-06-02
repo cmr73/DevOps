@@ -28,6 +28,7 @@ export NVM_DIR="$HOME/.nvm"
 nvm install 22
 npm -v
 npm install -g pm2
+apt update
 ```
 
 ---
